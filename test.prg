@@ -1,4 +1,4 @@
- * Hier erfolgt die Übergabe an KHK
+ * Hier erfolgt die Übergabe an KHK 18.09.22 test git geändert
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
  * Zeitraum übergeben.
  PARAMETERS Dstart,Dende
