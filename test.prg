@@ -1,6 +1,11 @@
  * Hier erfolgt die ï¿½bergabe an KHK 18.09.22 test git geï¿½ndert nue jetz in gitlab
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
+<<<<<<< HEAD
  * Zeitraum ï¿½bergeben.
+=======
+ * Zeitraum übergeben.
+ * Neue Zeile fuer  gitlab
+>>>>>>> OliTestPrg
  PARAMETERS Dstart,Dende
  LOCAL norder_hr,norder_hp,old_near,ok_ad,lmnr,old_near
  LOCAL caMacro, cpMacro ,ckstkonto,cpaykonto,cpaytext,debnr
