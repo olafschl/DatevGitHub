@@ -1,6 +1,6 @@
- * Hier erfolgt die Übergabe an KHK 18.09.22 test git geändert nue
+ * Hier erfolgt die ï¿½bergabe an KHK 18.09.22 test git geï¿½ndert nue jetz in gitlab
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
- * Zeitraum übergeben.
+ * Zeitraum ï¿½bergeben.
  PARAMETERS Dstart,Dende
  LOCAL norder_hr,norder_hp,old_near,ok_ad,lmnr,old_near
  LOCAL caMacro, cpMacro ,ckstkonto,cpaykonto,cpaytext,debnr
@@ -254,7 +254,7 @@
  		SKIP 1 
  	ENDDO
  	
- 	* Hier wird die Passantenbuchungen eingebunden wichtig für Argus Z-Abschlag
+ 	* Hier wird die Passantenbuchungen eingebunden wichtig fï¿½r Argus Z-Abschlag
  	SELECT histpost
  	GO  top
  	SET ORDER TO tag2
@@ -265,7 +265,7 @@
  			SKIP
  			LOOP
  			* rausgenommen, da sonst die passerby buchungen aus dem hotel 
- 			* nicht mit übernommen wurden
+ 			* nicht mit ï¿½bernommen wurden
  		ENDIF
  		DO case
  			CASE histpost.hp_artinum>0 AND !histpost.hp_cancel
@@ -466,13 +466,13 @@
  	GO top
  	*
 	SET filter to
-	* Hier wird die Debitorennr übertragen 
+	* Hier wird die Debitorennr ï¿½bertragen 
 	replace ALL konto WITH debitornr FOR konto="0" AND !EMPTY(debitornr)
 	* replace ALL gegenkonto WITH debitornr FOR gegenkonto="0" AND !EMPTY(debitornr)
 	* Herausgenommen zu testzwecken ggf. wieder einsetzen
 	
- 	* Hier wird die RgNr. geprüft ob diese in Ordnung ist, da wenn eine Rechnung abgeschlossen ist und ich dann eine
- 	* Artikel ins andere Fenster  verschiebe wird die rgnr mit übergeben obwohl das 2. Fenster ohne Rgnr ausgescheckt wurde.
+ 	* Hier wird die RgNr. geprï¿½ft ob diese in Ordnung ist, da wenn eine Rechnung abgeschlossen ist und ich dann eine
+ 	* Artikel ins andere Fenster  verschiebe wird die rgnr mit ï¿½bergeben obwohl das 2. Fenster ohne Rgnr ausgescheckt wurde.
  	DO WHILE EOF()=.f.
  		IF datev.reserid>1
  			ok_billnum=.f.
@@ -534,7 +534,7 @@
 	   endif
 	ENDDO
 	* 
-	* hier wird der Zahlungswechsel geprüft ob der in Ordnung ist
+	* hier wird der Zahlungswechsel geprï¿½ft ob der in Ordnung ist
 	*
 	SET FILTER TO reserid=0.500
 	GO top
@@ -559,12 +559,12 @@
 	*
 	*
 	* Hier wird die Buchungsdatei richtig aufgebaut und zwar so, dass 
-	* kein verrechnungskonto mehr benötigt wird
+	* kein verrechnungskonto mehr benï¿½tigt wird
 	* 14101 Schlingmeier   8401 Logis 			80,00 
-	* 14101 Schlingmeier   8402 Frühstück 		20,00
+	* 14101 Schlingmeier   8402 Frï¿½hstï¿½ck 		20,00
 	*
 	* Herausgenommen, da zwingend immer verrechnungskonto genommen werden muss
-	* da es zwei Zahlungen für eine Rechnung geben kann
+	* da es zwei Zahlungen fï¿½r eine Rechnung geben kann
 	ok_f=.f.
 	IF ok_f=.t.
 	*
@@ -595,7 +595,7 @@
 	*
 	SET FILTER TO 
 
-	* hier werden nur die Umsätze aus dem Hotel nicht aus Argus übermittelt. 	
+	* hier werden nur die Umsï¿½tze aus dem Hotel nicht aus Argus ï¿½bermittelt. 	
  	SELECT datev
  	SET Order to tag3
  	GO top
@@ -624,7 +624,7 @@
  			=FCLOSE(nb)
  		endif
  	endif
-	* hier werden nur die Umsätze aus Argus übermittelt
+	* hier werden nur die Umsï¿½tze aus Argus ï¿½bermittelt
 	kasse=.f.
 	* rausnehmen wenn kasse wieder aktiv ist
 	
