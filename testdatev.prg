@@ -1,5 +1,6 @@
 *
 CLOSE DATABASES 
+set date german
 *
 SELECT 0
 USE d:\citadel-sam\data\address SHARED

@@ -1,6 +1,7 @@
  * Hier erfolgt die Übergabe an KHK 18.09.22 test git geändert nue
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
  * Zeitraum übergeben.
+ * Neue Zeile fuer  gitlab
  PARAMETERS Dstart,Dende
  LOCAL norder_hr,norder_hp,old_near,ok_ad,lmnr,old_near
  LOCAL caMacro, cpMacro ,ckstkonto,cpaykonto,cpaytext,debnr
