@@ -1,4 +1,3 @@
-* Datev.prg  Testprogramm 19.09.2022 fuer branch git 
  PROCEDURE datev
 	PUBLIC lcbnummer,lcbname,lcmnummer,lcpasswort,lckostenstelle,lcselfid,lcasachkl,lcgsachkl
 	PUBLIC lcabgrg,lcldebitornr,lcautodebit,lceartikel,lcezahlung,lcedebitor,lcverdichtung
