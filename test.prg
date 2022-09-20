@@ -2,6 +2,7 @@
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
 <<<<<<< HEAD
  * Zeitraum ï¿½bergeben.
+ git aenderung - 1
 =======
  * Zeitraum übergeben.
  * Neue Zeile fuer  gitlab
