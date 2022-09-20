@@ -5,7 +5,7 @@
  git aenderung - 1
 =======
  * Zeitraum übergeben.
- * Neue Zeile fuer  gitlab  - 1
+ * Neue Zeile fuer  gitlab  - 1 - 2
 >>>>>>> OliTestPrg
  PARAMETERS Dstart,Dende
  LOCAL norder_hr,norder_hp,old_near,ok_ad,lmnr,old_near
