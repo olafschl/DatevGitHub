@@ -1,5 +1,6 @@
 * Erstellen der Buchungsdatei
 *
+* Git Zeile 1 erstellt 
 nhandle=FCREATE("c:\aktuell\ED00001")
 IF nhandle==-1	
 	WAIT WINDOW "Fehler!!!"
