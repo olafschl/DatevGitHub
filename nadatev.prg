@@ -2,6 +2,7 @@
 *** ReFox MMII (Win) #UK970148  SCHLINGMEIER  CITADEL [VFP50]
 ***
 *
+* Git Neue Zeile -1
 PROCEDURE NaDatev
 LPARAMETERS pcarg
 DO CASE
