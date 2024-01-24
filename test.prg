@@ -1,10 +1,10 @@
  * Hier erfolgt die ï¿½bergabe an KHK 18.09.22 test git geï¿½ndert nue jetz in gitlab
  * In dieser Funktion werden alle Buchungen vom vorgegebenen 
-<<<<<<< HEAD
+<<<<<<< HEAD 24.01.24
  * Zeitraum ï¿½bergeben.
  git aenderung - 1
 =======
- * Zeitraum übergeben.
+ * Zeitraum ï¿½bergeben.
  * Neue Zeile fuer  gitlab  - 1 - 2 -33 - 4
 >>>>>>> OliTestPrg
  PARAMETERS Dstart,Dende
